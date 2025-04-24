@@ -209,6 +209,7 @@ footer{
 /* Responsive Design for screens below 768px */
 @media (max-width: 768px) {
   .png-container {
+      size: 100px;
     flex-direction: column;
     align-items: center;
     padding: 10px;
