@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.company{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.png-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 30px;
+    z-index: 50;
+}
+.food-png{
+    height: 100px;
+}
+.menu-png{
+    height: 40px;
+}
+.bigfood-container{
+    /* border: 1px solid red; */
+    max-width: 400px;
+    float: left;
+    margin: 20px 50px;
+}
+.bigfood{
+    height: 500px;
+    border-radius: 50%;
+}
+.button-container{
+    /* border: 1px solid red; */
+    float: left;
+    background-color: rgb(0, 128, 6);
+    margin: 80px 215px;
+}
+.button-container p{
+    color: white;
+    padding: 10px 30px;
+    font-size: 12px;
+}
+.delicious{
+    /* border: 1px solid red; */
+    margin-top: 200px;
+    margin-left: 550px;
+    padding-left: 75px;
+}
+.delicious h1{
+    font-size: 72px;
+    letter-spacing: 1px;
+}
+.delicious h5{
+    /* border: 1px solid red; */
+    margin-left: 5px;
+    margin-right: 175px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.explore-button{
+    /* border: 1px solid red; */
+    margin-left: 630px;
+    margin-right: 350px;
+    margin-top: 30px;
+    background-color: rgb(128, 124, 0);
+    transition: 0.2s ease-in-out; 
+}
+.explore-button h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+    font-weight: 400;
+}
+.explore-button:hover{
+    background-color: rgb(128, 85, 0);
+    transition: 0.2s ease-in-out;
+}
+.company-bottom{
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    /* border: 1px solid red; */
+    max-width: 400px;
+    margin-bottom: 40px;
+    /* margin-left: 100px; */
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.3s ease-in-out;
+}
+.text-container p{
+    font-size: 12px;
+}
+.text-container h2{
+    font-size: 20px;
+}
+.img-container, .text-container{
+    /* border: 1px solid red; */
+    margin: 0 10px;
+}
+.img-container{
+    float: left;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+.menu .tag{
+    align-self: center;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+.grid-img{
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+
+}
+.grid-img:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;;
+}
+footer{
+    background-color: #fff0db;
+}
+.footer-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-lists h3{
+    margin-bottom: 10px;
+    color: gray;
+}
+.link-lists ul{
+    list-style-type: none;
+}
+.link-lists ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.news-letter h3{
+    margin-bottom: 30px;
+    color: gray;
+}
+.news-letter input{
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
+.icon-container{
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+}
